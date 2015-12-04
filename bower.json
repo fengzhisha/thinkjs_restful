@@ -1,0 +1,26 @@
+{
+  "name": "map",
+  "version": "0.1.",
+  "authors": [
+    "shenqihui0920@gmail.org"
+  ],
+  "description": "map",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "",
+  "homepage": "http://blog.shenqh.com/map/",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "twbs/bootstrap#v4.0.0-alpha"
+  }
+}

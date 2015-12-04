@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>New ThinkJS Application</title>
+<link rel="stylesheet" href="static/css/main.css">
+
+</head>
+<body>
+
+  {% block header %}
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-expanded="true"> ☰ </button>
+      <a href="#" class="navbar-brand">Album</a>
+    </div>
+  </div>
+
+  <div class="navbar-collapse inverse collapse" id="navbar-header" aria-expanded="true">
+    <div class="navbar-wrapper">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand visible-xs" href="/">规则管理平台</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li data-nav="home"><a href="/">规则管理平台</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              
+                <li><a href="/account/login">登录</a></li>
+                <li><a href="/account/register">注册</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  {% endblock %}
+
+  {% block content %}
+  {% endblock %}
+
+  {% block footer %}
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
+  {% endblock %}
+
+
+  <script src="static/bower_components/angular/angular.min.js"></script>
+  <script src="static/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
