@@ -37,3 +37,10 @@ ssl/
 www/static/module/thinkjs/*.md
 
 view_build/
+view/
+
+/node_modules
+
+/output
+
+/components
